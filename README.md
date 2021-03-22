@@ -4,7 +4,7 @@
 
 Javascript librarie for load intelligently list of pictures or greedy elements html.
 
-<img src="https://github.com/jguyet/jiji-container-scrolling/raw/master/img/jiji-js.png"/>
+<img src="https://github.com/jguyet/jiji-container-scrolling/raw/master/img/img.gif"/>
 
 For the container element this librarie check all elements contained in container and an of an of three function is called for all elements
 
