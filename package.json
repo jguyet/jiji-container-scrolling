@@ -1,0 +1,33 @@
+{
+  "private": false,
+  "name": "jiji-container-scrolling",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jguyet/jiji-container-scrolling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jguyet/jiji-container-scrolling.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jguyet/jiji-container-scrolling/issues"
+  },
+  "author": "Guyet Jeremy <jguyet@linepicplus.com> (https://github.io/jguyet)",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {},
+  "description": "Javascript librarie for load intelligently list of pictures or greedy elements html.",
+  "main": "jiji-container-scrolling.js",
+  "directories": {},
+  "keywords": [
+    "jiji",
+    "jiji-js",
+    "container",
+    "macro",
+    "scrolling",
+    "scroll"
+  ]
+}
