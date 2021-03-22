@@ -1,15 +1,26 @@
-# jiji-js
+# jiji-container-scrolling
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
 [![license][license-image]][license-url]
 
-Sample front-end framework for create application easily in js
+Javascript librarie for load intelligently list of pictures or greedy elements html.
 
-see [jiji-js.io]: https://jiji-js.io
+How to check if element is visible after scrolling?
 
-[npm-image]: https://img.shields.io/npm/v/jiji-js.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/jiji-js
-[travis-image]: https://travis-ci.com/jguyet/jiji-js.svg
-[travis-url]: https://travis-ci.com/github/jguyet/jiji-js
+Easy to use :
+
+````
+const JijiContainerScrolling = require("jiji-container-scrolling");
+
+// visibleFunctionCallBack is callled if element visible in first parameter scrolling through each event
+JijiContainerScrolling.init(document.getElementById('photos'), visibleFunctionCallBack, partialVisibleFunction, unVisibleFunction);
+
+// manual check is callled if element visible in first parameter scrolling through each event
+JijiContainerScrolling.checkVisibleContainerElementsWithoutCallBack(document.getElementById('photos'), visibleFunctionCallBack, partialVisibleFunction, unVisibleFunction);
+````
+
+If you search a simple framework js see [jiji-js.io]: https://jiji-js.io
+
+[npm-image]: https://img.shields.io/npm/v/jiji-container-scrolling.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/jiji-container-scrolling
 [license-image]: https://img.shields.io/npm/l/express.svg
 [license-url]: https://tldrlegal.com/license/mit-license
