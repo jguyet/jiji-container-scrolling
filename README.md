@@ -4,7 +4,7 @@
 
 Javascript librarie for load intelligently list of pictures or greedy elements html.
 
-How to check if element is visible after scrolling?
+<img src="https://github.com/jguyet/jiji-start/raw/master/src/public/jiji-js.png"/>
 
 For the container element this librarie check all elements contained in container and an of an of three function is called for all elements
 
@@ -39,6 +39,8 @@ JijiContainerScrolling.checkVisibleContainerElementsWithoutCallBack(document.get
 ````
 
 If you search a simple framework js see [jiji-js.io]: https://jiji-js.io
+
+Ref: How to check if element is visible after scrolling?
 
 [npm-image]: https://img.shields.io/npm/v/jiji-container-scrolling.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/jiji-container-scrolling
