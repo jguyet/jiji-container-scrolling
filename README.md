@@ -6,10 +6,30 @@ Javascript librarie for load intelligently list of pictures or greedy elements h
 
 How to check if element is visible after scrolling?
 
-Easy to use :
+For the container element this librarie check all elements contained in container and an of an of three function is called for all elements
 
+
+example :
+
+````html
+<div id="photos">
+    <img src="...">
+    <img src="...">
+    <img src="...">
+    ... 3000 other pictures
+</div>
 ````
+
+I want load pictures only if is displayable.
+
+````js
 const JijiContainerScrolling = require("jiji-container-scrolling");
+
+let visibleFunctionCallBack = (element) => {
+    element.src = "...";
+};
+let partialVisibleFunction = (element) => {};
+let unVisibleFunction = (element) => {};
 
 // visibleFunctionCallBack is callled if element visible in first parameter scrolling through each event
 JijiContainerScrolling.init(document.getElementById('photos'), visibleFunctionCallBack, partialVisibleFunction, unVisibleFunction);
